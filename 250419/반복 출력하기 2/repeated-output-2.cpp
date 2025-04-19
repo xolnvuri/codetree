@@ -8,8 +8,8 @@ void helloworld(int N){
     if (N == 0){
         return;
     }
-    helloworld(N - 1);
     cout << "HelloWorld" << endl;
+    helloworld(N - 1);
 }
 
 int main() {
